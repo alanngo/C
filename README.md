@@ -2,7 +2,7 @@
 
 ### Starter File
 
-- Copy and paste this code 
+- The code below is the starter code for any C project
 - Make sure you save your file as '.h' or '.c'
 ```C
 #include <stdio.h>
@@ -61,6 +61,7 @@ all:
     make run
 
 debug:
+    make clean
     make build-debug
     make run-debug
 
