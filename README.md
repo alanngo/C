@@ -177,8 +177,9 @@ If you are using Windows 10, open your workspace as a WSL Ubuntu Session
             "type": "shell",
             "args": 
             [
-                "-g", // you need this argument for debugging
-                [MAIN_FILE]
+                "-g", //you need this argument for debugging
+                [MAIN_FILE] /*replace [MAIN_FILE] w/ the file containing your
+                            main function*/
             ],
             "problemMatcher": [
                 "$tsc"
