@@ -3,7 +3,7 @@
 #include <stdbool.h> // needed for boolean
 int main(int argc, char *argv[])
 {
-	bool b = false;
+	bool b = false; // need to import
     char c ='x';
 
     int i = 400;
@@ -17,6 +17,10 @@ int main(int argc, char *argv[])
     // c DOES NOT have strings, use char arrays/pointers
     char* str1 = "string as char pointer";
     char str2[128] = "string as char array";
+
+
+    // signed allows negative numbers
+    // unsinged will just wrap around
 
     printf("%d\n",b); // prints 0 for false, 1 for true
     printf("%d\n",i); // use %d for decimal for numerical types except long
